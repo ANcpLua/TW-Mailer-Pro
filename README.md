@@ -6,33 +6,27 @@
 Before you can build and run TwMailer, you need to install several dependencies.
 
 ### Install LDAP Development Libraries
-
 ```bash
 sudo apt-get install -y libldap2-dev
 ```
 ```bash
 sudo apt-get install -y libldap2-dev
 ```
-```bash
-Install Build Tools
-```
+### Install Build Tools
 ```bash
 sudo apt-get install -y build-essential
 ```
-```bash
-Install CMake and Git for GoogleTest
-```
+### Install CMake and Git for GoogleTest
 ```bash
 sudo apt-get install -y cmake git
 ```
-```bash
-Clone the GoogleTest repository to your project directory.
-```
+### Clone the GoogleTest repository to your project directory.
 ```bash
 cd ~/Documents/TwMailer/tests
 git clone https://github.com/google/googletest.git || (cd googletest && git pull)
 ```
-Directory Structure
+```bash
+### Directory Structure
 ├── src
 │   ├── server
 │   ├── client
@@ -51,9 +45,9 @@ Directory Structure
         ├── client
         ├── shared
         └── server
+```
 
-Building the Project
-
+### Building the Project
 Navigate to the project root directory and run make to build the application.
 
 ```bash
