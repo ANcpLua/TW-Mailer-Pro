@@ -5,16 +5,13 @@
 
 Before you can build and run TwMailer, you need to install several dependencies.
 
-### Install LDAP Development Libraries
-```bash
-sudo apt-get install -y libldap2-dev
-```
-```bash
-sudo apt-get install -y libldap2-dev
-```
 ### Install Build Tools for Make and g++
 ```bash
 sudo apt-get install -y build-essential
+```
+### Install LDAP Development Libraries
+```bash
+sudo apt-get install -y libldap2-dev
 ```
 ### Install CMake and Git for GoogleTest
 ```bash
