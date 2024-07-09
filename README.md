@@ -28,12 +28,12 @@ git clone https://github.com/google/googletest.git || (cd googletest && git pull
 │   ├── server
 │   ├── client
 │   └── shared
-├── include
 ├── build
 │   ├── server
 │   ├── client
 │   └── shared
 ├── bin
+├── data
 ├── conf
 ├── logs
 ├── mail_spool
@@ -43,7 +43,6 @@ git clone https://github.com/google/googletest.git || (cd googletest && git pull
         ├── shared
         └── server
 ```
-
 ### Building the Project
 Navigate to the project root directory and run make to build the application.
 
