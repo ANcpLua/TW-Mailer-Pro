@@ -49,6 +49,15 @@ Navigate to the project root directory and run make to build the application.
 ```bash
 make all
 ```
+# Server first
+```bash
+ ./bin/twmailer-server
+hint:port and mail directory can be adjusted in the .conf file else the progam does it for u
+```
+# Client 
+```bash
+ ./bin/twmailer-client 127.0.0.1 8080
+```
 ### Tests
 Navigate to the tests directory
 ```bash
