@@ -50,10 +50,6 @@ Navigate to the project root directory and run make to build the application.
 ```bash
 make all
 ```
-To clean the build artifacts:
-```bash
-make clean
-```
 ### Tests
 Navigate to the tests directory
 ```bash
