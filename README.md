@@ -52,7 +52,7 @@ make all
 # Server first
 ```bash
  ./bin/twmailer-server
-hint:port and mail directory can be adjusted in the .conf file else the progam does it for u
+hint:port and mail directory can be adjusted in the .conf file else the program does it for you
 ```
 # Client 
 ```bash
