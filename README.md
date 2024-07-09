@@ -3,7 +3,7 @@
 
 ## Prerequisites
 
-Before you can build and run TwMailer, you need to install several dependencies.
+Before you can build and run TwMailer, you need to install annoying dependencies.
 
 ### Install Build Tools for Make and g++
 ```bash
