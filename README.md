@@ -12,7 +12,7 @@ sudo apt-get install -y libldap2-dev
 ```bash
 sudo apt-get install -y libldap2-dev
 ```
-### Install Build Tools
+### Install Build Tools for Make and g++
 ```bash
 sudo apt-get install -y build-essential
 ```
@@ -25,8 +25,8 @@ sudo apt-get install -y cmake git
 cd ~/Documents/TwMailer/tests
 git clone https://github.com/google/googletest.git || (cd googletest && git pull)
 ```
-```bash
 ### Directory Structure
+```bash
 ├── src
 │   ├── server
 │   ├── client
@@ -57,7 +57,8 @@ To clean the build artifacts:
 ```bash
 make clean
 ```
-Running Tests Navigate to the tests directory
+### Tests
+Navigate to the tests directory
 ```bash
 cd tests
 make all
