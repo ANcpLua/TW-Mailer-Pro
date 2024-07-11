@@ -15,8 +15,8 @@ sudo apt-get install -y libldap2-dev
 sudo apt-get install -y cmake git
 ```
 ### Clone the GoogleTest repository to your project directory.
+hint: cd ~/Documents/TwMailer/tests
 ```bash
-// cd ~/Documents/TwMailer/tests
 git clone https://github.com/google/googletest.git || (cd googletest && git pull)
 ```
 ### Directory Structure
@@ -46,9 +46,9 @@ Navigate to the project root directory and run make to build the application.
 make all
 ```
 # Server first
+hint: port and mail directory can be adjusted in the .conf file else the program does it for you
 ```bash
  ./bin/twmailer-server
-hint:port and mail directory can be adjusted in the .conf file else the program does it for you
 ```
 # Client 
 ```bash
